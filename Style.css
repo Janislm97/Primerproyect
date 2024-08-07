@@ -76,6 +76,8 @@ header nav ul {
 
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
 
@@ -87,12 +89,22 @@ header nav ul {
     border-radius: 10px;
     padding: 5px 30px;
     font-weight: bold;
+    transition: background .3s ease-in-out;
+    
+}
+
+.hombre button:hover {
+
+    background-color: #F9D978;
+
 }
 
 .mujeres {
 
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
 
@@ -104,14 +116,22 @@ header nav ul {
     border-radius: 10px;
     padding: 5px 30px;
     font-weight: bold;
+    transition: background .3s ease-in-out;
 
 }
+
+.mujeres button:hover {
+
+    background-color: #F9D978;
+}
+
 
 .niños {
 
     display: flex;
     flex-direction: column;
- 
+    border-radius: 10px;
+    overflow: hidden;
 
 }
 
@@ -131,6 +151,8 @@ header nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
 
@@ -150,6 +172,9 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     padding: 12px 30px;
+
+    transform: translateY(-50px)
+
 }
 
 .calificacion {
@@ -166,4 +191,3 @@ display: flex;
 align-items: start;
 justify-content: space-between;
 }
-
