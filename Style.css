@@ -1,4 +1,4 @@
-*{
+* {
     /* Tamaño de Letra */
     font-size: 1rem;
 
@@ -41,12 +41,12 @@ header nav ul {
 
 .jumbotron {
 
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-background-image: url("/assets/pexels-adrien-olichon-1257089-2387793.jpg");
-background-size: 100%;
+    background-image: url("/assets/pexels-adrien-olichon-1257089-2387793.jpg");
+    background-size: 100%;
 
 }
 
@@ -70,5 +70,100 @@ background-size: 100%;
     padding: 12px 30px;
     font-weight: bold;
 
+}
+
+.hombre {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hombre button {
+
+    background-color: #D9B26A;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.mujeres {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mujeres button {
+
+    background-color: #D9B26A;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-weight: bold;
+
+}
+
+.niños {
+
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+
+
+.niños button {
+
+    background-color: #D9B26A;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.bebes {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bebes button {
+
+    background-color: #D9B26A;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-weight: bold;
+
+}
+
+.tarjetas {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+}
+
+.calificacion {
+
+    display: flex;
+    align-items: center;
+    
+        
+}
+
+.tituloprecio {
+
+display: flex;
+align-items: start;
+justify-content: space-between;
 }
 
