@@ -90,7 +90,7 @@ header nav ul {
     padding: 5px 30px;
     font-weight: bold;
     transition: background .3s ease-in-out;
-    
+
 }
 
 .hombre button:hover {
@@ -144,7 +144,16 @@ header nav ul {
     border-radius: 10px;
     padding: 5px 30px;
     font-weight: bold;
+    transition: background .3s ease-in-out;
+
 }
+
+.niños button:hover {
+
+    background-color: #F9D978;
+
+}
+
 
 .bebes {
 
@@ -164,6 +173,13 @@ header nav ul {
     border-radius: 10px;
     padding: 5px 30px;
     font-weight: bold;
+    transition: background .3s ease-in-out;
+}
+
+
+.bebes button:hover {
+
+    background-color: #F9D978;
 
 }
 
@@ -174,20 +190,51 @@ header nav ul {
     padding: 12px 30px;
 
     transform: translateY(-50px)
-
 }
 
 .calificacion {
 
     display: flex;
     align-items: center;
-    
-        
+
+
 }
 
 .tituloprecio {
 
-display: flex;
-align-items: start;
-justify-content: space-between;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
+
+
+.imagenes {
+
+    display: flex;
+}
+
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+}
+
+
+.COLECCIONES {
+
+    font-weight: bold;
+    font-size: 16px
+}
+
+.PRODUCTOS {
+    font-weight: bold;
+    font-size: 16px
+}
+
+.DEPORTES {
+    font-weight: bold;
+    font-size: 16px
+}
+
