@@ -208,9 +208,35 @@ header nav ul {
 }
 
 
-.imagenes {
+.fondofin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("/assets/NOSOTROS.png");
+    background-size: 100%;
+}
+
+.acerca h4 {
 
     display: flex;
+    font-size: 56px;
+    align-items: start;
+    justify-content: end;
+    padding-left: 60px;
+    font-family: "inter";
+    font-weight: bold;
+}
+
+.acerca p {
+
+    display: flex;
+    font-size: 24px
+    padding-left: 60px;
+    align-items: :center;
+    justify-content: center;
+
+   
 }
 
 
@@ -220,7 +246,6 @@ footer nav {
     align-items: center;
     padding: 12px 60px;
 }
-
 
 .COLECCIONES {
 
@@ -238,3 +263,9 @@ footer nav {
     font-size: 16px
 }
 
+.Siguenos {
+
+    font-weight: bold;
+    font-size: 16px
+
+}
