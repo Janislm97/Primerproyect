@@ -216,6 +216,11 @@ header nav ul {
 
     background-image: url("/assets/NOSOTROS.png");
     background-size: 100%;
+
+    /* LE agrego un padding para hacer crecer la sección y dar espacio para que se vea la imagen */
+    padding: 150px 60px;
+    /* También cambio el color del texto */
+    color: white;
 }
 
 .acerca h4 {
