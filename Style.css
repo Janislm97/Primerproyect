@@ -39,13 +39,29 @@ header nav ul {
     gap: 32px;
 }
 
+header nav li {
+    font-weight: bold;
+}
+
+header nav button {
+
+    transition: background .3s ease-in-out;
+}
+
+header nav button:hover {
+
+    background-color: #F9D978;
+}
+
 .jumbotron {
 
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/assets/pexels-adrien-olichon-1257089-2387793.jpg");
+    background-image: url("/assets/PORTADA.png");
     background-size: cover;
+    padding: 150px 200px;
+
 
 }
 
@@ -55,7 +71,7 @@ header nav ul {
     font-size: 56px;
     align-items: center;
     justify-content: center;
-    padding-left: 60px;
+    padding-left: 10px;
     font-family: "inter";
     font-weight: bold;
     color: white;
@@ -132,7 +148,6 @@ header nav ul {
     font-weight: bold;
 }
 
-
 .mujeres button {
 
     background-color: #D9B26A;
@@ -162,6 +177,11 @@ header nav ul {
 }
 
 .niños div h3 {
+    box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.068);
+
+}
+
+.niños h3 {
 
     font-weight: bold;
 }
@@ -232,8 +252,7 @@ header nav ul {
 
     display: flex;
     justify-content: space-between;
-    padding: 12px 30px;
-
+    padding: 12px 150px;
     transform: translateY(-50px)
 }
 
@@ -317,15 +336,7 @@ footer nav {
 }
 
 .imagenes {
+
     display: flex;
-    padding: 5px 0px;
-
+    box-sizing: border-box;
 }
-
-.textoj {
-
-
-
-}
-
-
