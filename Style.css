@@ -58,6 +58,7 @@ header nav ul {
     padding-left: 60px;
     font-family: "inter";
     font-weight: bold;
+    color: white;
 }
 
 .button {
@@ -78,7 +79,18 @@ header nav ul {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.068);
+    font-weight: bold;
 
+}
+
+.hombre div h3 {
+
+    font-weight: bold;
+}
+
+.hombre div p {
+
+    font-weight: bold;
 }
 
 .hombre button {
@@ -105,8 +117,21 @@ header nav ul {
     flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
+    font-weight: bold;
 
 }
+
+.mujeres div h3 {
+
+    font-weight: bold;
+}
+
+.mujeres div p {
+
+
+    font-weight: bold;
+}
+
 
 .mujeres button {
 
@@ -132,9 +157,19 @@ header nav ul {
     flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
+    font-weight: bold;
 
 }
 
+.niños div h3 {
+
+    font-weight: bold;
+}
+
+.niños div p {
+
+    font-weight: bold;
+}
 
 .niños button {
 
@@ -162,9 +197,19 @@ header nav ul {
     justify-content: center;
     border-radius: 10px;
     overflow: hidden;
+    font-weight: bold;
 
 }
 
+.bebes div h3 {
+
+    font-weight: bold;
+}
+
+.bebes div p {
+
+    font-weight: bold;
+}
 .bebes button {
 
     background-color: #D9B26A;
